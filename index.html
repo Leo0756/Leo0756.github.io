@@ -12,6 +12,10 @@
         background-color: azure;
         border: red 1px solid;
       }
+      img.footer-icons {
+        height: 40px;
+        width: 40px;
+      }
     </style>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -20,41 +24,74 @@
     <title>EDevAWeb</title>
   </head>
   <body>
+    <!-- Nav-Bar -->
     <nav>
       <ul>
-        <li>INICIO</li>
-        <li>SERVICIOS</li>
+        <li>
+          <a href="./index.html">INICIO</a>
+        </li>
+        <li>
+          <a href="#">SERVICIOS</a>
+          <ul>
+            <li>
+              <a href="./desarrolloapp.html">Desarrollo de App</a>
+            </li>
+            <li>
+              <a href="./desarrolloweb.html">Desarrollo Web</a>
+            </li>
+            <li>
+              <a href="./diseñoweb.html">Diseño Web</a>
+            </li>
+          </ul>
+        </li>
         <li>EMPRESA</li>
-        <li>CONTACTO</li>
+        <li><a href="">CONTACTO</a></li>
       </ul>
     </nav>
+
+    <!-- Header -->
     <header>
-      <h1>Agencia de desarrollo de Aplicaciones Móviles y Diseño Web</h1>
     </header>
+
+    <!-- Footer -->
     <footer>
       <div>
         <h3>Servicios</h3>
-        <a href="">Desarrollo de Apps</a>
-        <a href="">Desarrollo Web</a>
-        <a href="">Diseño Web</a>
+        <a href="./desarrolloapp.html">Desarrollo de Apps</a>
+        <a href="./desarrolloweb.html">Desarrollo Web</a>
+        <a href="./diseñoweb.html">Diseño Web</a>
       </div>
       <div>
         <div>
-          <img src="" alt=""/>
+          <img src="" alt="" />
           <h2>EDevAWeb</h2>
         </div>
         <p>Agencia de diseño web, desarrollo de aplicaciones y Software</p>
-        <p>📍Granada - España</p>
+        <p>Granada - España</p>
       </div>
       <div>
         <h3>Contacto</h3>
         <p>info@edevaweb.dev</p>
         <p>+34 666777333</p>
         <div>
-            <a href=""><img src="" alt=""></a>
-            <a href=""><img src="" alt=""></a>
-            <a href=""><img src="" alt=""></a>
-            <a href=""><img src="" alt=""></a>
+          <a href="https://es-es.facebook.com/"
+            ><img
+              src="./img/Facebook.png"
+              alt="Facebook Icon"
+              class="footer-icons"
+          /></a>
+          <a href="https://www.instagram.com/"
+            ><img
+              src="./img/Instagram.png"
+              alt="Instagram Icon"
+              class="footer-icons"
+          /></a>
+          <a href="https://twitter.com/?lang=es"
+            ><img src="img/Twitter.png" alt="Twitter Icon" class="footer-icons"
+          /></a>
+          <a href="https://github.com/"
+            ><img src="img/Github.png" alt="Github Icon" class="footer-icons"
+          /></a>
         </div>
       </div>
     </footer>
