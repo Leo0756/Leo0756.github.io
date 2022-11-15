@@ -8,15 +8,27 @@
     section,
     article,
     footer {
-      width: 1300px;
+      width: 1000px;
       height: 400px;
       background-color: azure;
       border: red 1px solid;
     }
 
-    img.footer-icons {
-      height: 40px;
-      width: 40px;
+    .nav-bar-ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #dddddd;
+    }
+
+    .nav-bar-ul li {
+      float: right;
+    }
+
+    .nav-bar-ul li a {
+      display: block;
+      padding: 8px;
     }
   </style>
   <meta charset="UTF-8" />
@@ -29,13 +41,11 @@
 <body>
   <!-- Nav-Bar -->
   <nav>
-    <ul>
-      <li>
-        <a href="./index.html">INICIO</a>
-      </li>
-      <li>CONCIERTO</li>
-      <li>TIENDA</li>
-      <li><a href="">CONTACTO</a></li>
+    <ul class="nav-bar-ul">
+      <li><a href="./contacto.html">CONTACTO</a></li>
+      <li><a href="./tienda.html">TIENDA</a></li>
+      <li><a href="./conciertos.html">CONCIERTO</a></li>
+      <li><a href="./index.html">INICIO</a></li>
     </ul>
   </nav>
 
@@ -44,22 +54,22 @@
     <h1>Thirty Seconds To Mars</h1>
   </header>
 
+  <!-- Section -->
+  <section>
+  </section>
+
   <!-- Footer -->
   <footer>
-    <div></div>
-    <div class="footer-object-1">
-      <h3>Thirty Seconds To Mars</h3>
-      <img src="./img/Favicon.png" alt="Thirty Seconds To Mars" height="140px" width="140px">
+    <div>
+      <img src="./img/Thirty Seconds To Mars.png" alt="Thirty Seconds To Mars" height="250px" width="200px">
     </div>
-    <div class="footer-object-2">
+    <div class="footer-object-1">
       <a href="https://twitter.com/"><img src="./img/Twitter.png" alt="Twitter" height="30px" width="30px"></a>
       <a href="https://www.instagram.com/"><img src="./img/Instagram.png" alt="Instagram" height="30px" width="30px"></a>
       <a href="https://www.facebook.com/"><img src="./img/Facebook.png" alt="facebook" height="30px" width="30px"></a>
       <a href="https://www.youtube.com/"><img src="./img/Youtube.png" alt="Youtube" height="30px" width="30px"></a>
       <a href="https://open.spotify.com/"><img src="./img/Spotify.png" alt="Youtube" height="30px" width="30px"></a>
-
     </div>
-    
   </footer>
 </body>
 
