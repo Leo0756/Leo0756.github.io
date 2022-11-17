@@ -19,6 +19,13 @@ body {
     background-color: black;
 }
 
+/* Separador */
+.separador {
+    height: 1px;
+    width: 100%;
+    background-color: rgb(252, 206, 4);
+}
+
 /* Nav-Bar */
 nav ul {
     display: flex;
@@ -35,12 +42,12 @@ nav ul li {
 
 nav ul li a {
     display: flex;
-    color: white;
+    color: rgb(252, 206, 4);
     padding: 15px 15px;
 }
 
 nav ul li a:hover {
-    background-color: yellow;
+    background-color: rgb(252, 206, 4);
     color: gray;
 }
 
@@ -52,7 +59,7 @@ header {
 
 header h1 {
     padding: 20px;
-    color: white;
+    color: rgb(255, 208, 1);
 }
 
 /* Article */
@@ -61,8 +68,7 @@ section {
     display: flex;
     justify-content: center;
     width: 80%;
-    background-color: white;
-
+    height: 1000px;
 }
 
 section article p {
@@ -73,6 +79,9 @@ section article p {
 /* Footer */
 footer {
     background-color: black;
+    padding-top: 10px;
+    width: 100%;
+
 }
 
 footer div {
@@ -85,14 +94,17 @@ footer div img {}
 
 footer div a {
     padding: 20px;
+    color: rgb(252, 206, 4);
+    font-size: smaller;
 }
 
 footer div a:hover {
-    background-color: yellow;
+    background-color: rgb(252, 206, 4);
+    color: gray;
 }
 
 footer p {
-    color: yellow;
+    color: rgb(252, 206, 4);
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
