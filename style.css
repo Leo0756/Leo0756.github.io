@@ -1,0 +1,99 @@
+/* CSS Reseter */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Body */
+body {
+    padding: 20px;
+}
+
+/* Container */
+.container-full-body {
+    margin: auto;
+    width: 1000px;
+    height: auto;
+    background-color: black;
+}
+
+/* Nav-Bar */
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: right;
+    margin: 0px;
+}
+
+nav ul li a {
+    display: flex;
+    color: white;
+    padding: 15px 15px;
+}
+
+nav ul li a:hover {
+    background-color: yellow;
+    color: gray;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header h1 {
+    padding: 20px;
+    color: white;
+}
+
+/* Article */
+section {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    background-color: white;
+
+}
+
+section article p {
+    color: black;
+}
+
+
+/* Footer */
+footer {
+    background-color: black;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+footer div img {}
+
+footer div a {
+    padding: 20px;
+}
+
+footer div a:hover {
+    background-color: yellow;
+}
+
+footer p {
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
