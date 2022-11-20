@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Thirty Seconds To Mars</title>
+    <link rel="shortcut icon" href="./img/Thirty-Seconds-To-Mars-Yellow.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap" rel="stylesheet">
+    <style>
+        /* Container - Form */
+        #container-form {
+            margin: 15px auto;
+            border-top: 2px solid rgb(255, 196, 0);
+            border-bottom: 2px solid rgb(255, 196, 0);
+        }
+
+        /* Form */
+        form {
+            background-color: rgb(255, 196, 0);
+            display: block;
+            margin: 100px auto;
+            width: 25%;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        form * {
+            width: 90%;
+            margin: 15px;
+        }
+
+        form input,
+        form label {
+            text-align: center;
+            margin: 5px;
+            width: 70%;
+            border-style: none;
+        }
+
+        #button {
+            width: 40%;
+            border-radius: 10px;
+            border-style: none;
+            background-color: white;
+        }
+
+        #button:hover {
+            background-color: rgb(201, 153, 245);
+        }
+
+        form h2,
+        form p {
+            text-align: center;
+        }
+
+        form a {
+            color: blue;
+            display: block;
+            margin: 0 auto;
+            width: 30%;
+            text-align: center;
+        }
+
+        form a:hover {
+            color: rgb(201, 153, 245);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Container -->
+    <div id="container">
+        <!-- Header -->
+        <header>
+            <h1>THIRTY SECONDS TO MARS</h1>
+        </header>
+        <!-- Nav-Bar -->
+        <nav>
+            <ul>
+                <li><a href="./index.html">INICIO</a></li>
+                <li><a href="./virtual-bg.html">VIRTUAL BACKGROUNDS</a></li>
+                <li><a href="./30stm-songs.html">30STM SONGS</a></li>
+                <li><a href="./tstm.html">TSTM</a></li>
+                <li><a href="./account.html">ACCOUNT</a></li>
+            </ul>
+        </nav>
+        <!-- Container - Form -->
+        <div id="container-form">
+            <!-- Form -->
+            <form>
+                <h2>Iniciar Sesión</h2>
+                <label for="username">Usuario:</label><br>
+                <input type="text" id="username" name="username"><br>
+                <label for="pwd">Contraseña:</label><br>
+                <input type="password" id="pwd" name="pwd"><br><br>
+                <input type="submit" value="Iniciar Sesión" id="button">
+                <p>¿Aún no tienes cuenta?</p>
+                <a href="#">Entra aquí</a>
+            </form>
+        </div>
+        <!-- Footer -->
+        <footer>
+            <!-- Footer - Container -->
+            <div id="container-footer">
+                <!-- Footer - Container - Content-->
+                <div class="box" id="box-1">
+                    <h3>30 Seconds To Mars</h3>
+                    <img src="./img/Thirty-Seconds-to-Mars.jpg" alt="TSTM">
+                </div>
+                <div class="box" id="box-2">
+                    <img src="./img/Thirty-Seconds-To-Mars-Yellow.png" alt="Thirty Seconds To Mars">
+                    <p> Los Ángeles - California</p>
+                    <p> Estados Unidos </p>
+                </div>
+                <div id="box-3">
+                    <h3>Redes Sociales</h3>
+                    <a href="https://twitter.com/"><img src="./img/Twitter.png" alt="Twitter"></a>
+                    <a href="https://www.instagram.com/"><img src="./img/Instagram.png" alt="Instagram"></a>
+                    <a href="https://www.facebook.com/"><img src="./img/Facebook.png" alt="facebook"></a>
+                    <a href="https://www.youtube.com/"><img src="./img/Youtube.png" alt="Youtube"></a>
+                    <a href="https://open.spotify.com/"><img src="./img/Spotify.png" alt="Youtube"></a>
+                </div>
+            </div>
+            <p>©2022 THIRTY SECONDS TO MARS</p>
+        </footer>
+    </div>
+</body>
+
+</html>

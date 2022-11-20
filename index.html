@@ -1,66 +1,156 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" type="image/x-icon" href="./img/Favicon.png" />
-  <link rel="stylesheet" href="./style.css">
-  <title>Thirty Seconds To Mars</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Thirty Seconds To Mars</title>
+    <link rel="shortcut icon" href="./img/Thirty-Seconds-To-Mars-Yellow.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap" rel="stylesheet">
+    <style>
+        /* Section */
+        section img {
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+            height: 100%;
+        }
+
+        section h2 {
+            color: white;
+            text-align: center;
+            margin: 40px;
+        }
+
+        #section-title {
+            color: rgb(255, 196, 0);
+        }
+
+        section iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+        }
+
+        section div {
+            background-color: rgb(255, 196, 0);
+            width: 100%;
+            margin: 10px auto;
+        }
+
+        section div h3,
+        section div h4,
+        section div p {
+            text-align: center;
+            margin: 10px;
+        }
+
+        section div a {
+            background-color: rgb(255, 5, 255);
+            color: rgb(255, 196, 0);
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        section div a:hover {
+            color: white;
+            background-color: rgb(247, 85, 247);
+        }
+
+        #photos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            background-color: black;
+        }
+
+        #photos img {
+            width: 30%;
+            height: 30%;
+            margin: 40px 10px;
+        }
+    </style>
 </head>
 
 <body>
-  <!-- Container -->
-  <div class="container-full-body">
-    <!-- Header -->
-    <header>
-      <h1>Thirty Seconds To Mars</h1>
-    </header>
-
-    <!-- Nav-Bar -->
-    <nav>
-      <ul>
-        <li><a href="./index.html">TSMT</a></li>
-        <li><a href="./conciertos.html">CONCIERTOS</a></li>
-        <li><a href="./tienda.html">TIENDA</a></li>
-        <li><a href="./contacto.html">CONTACTO</a></li>
-      </ul>
-    </nav>
-
-    <!-- Separador -->
-    <div class="separador"></div>
-
-    <!-- Section -->
-    <section>
-      <article>
-        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Zcps2fJKuAI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </article>
-    </section>
-
-    <!-- Separador -->
-    <div class="separador"></div>
-
-    <!-- Footer -->
-    <footer>
-      <div>
-        <a href="./tienda.html">TIENDA</a>
-        <a href="./conciertos.html">CONCIERTOS</a>
-        <a href="./contacto.html">CONTACTO</a>
-      </div>
-      <div>
-        <img src="./img/Thirty-Seconds-To-Mars-Yellow.png" alt="ThirtySecondsToMars" height="250" width="200">
-      </div>
-      <div>
-        <a href="https://twitter.com/"><img src="./img/Twitter.png" alt="Twitter" height="30" width="30"></a>
-        <a href="https://www.instagram.com/"><img src="./img/Instagram.png" alt="Instagram" height="30" width="30"></a>
-        <a href="https://www.facebook.com/"><img src="./img/Facebook.png" alt="facebook" height="30" width="30"></a>
-        <a href="https://www.youtube.com/"><img src="./img/Youtube.png" alt="Youtube" height="30" width="30"></a>
-        <a href="https://open.spotify.com/"><img src="./img/Spotify.png" alt="Youtube" height="30" width="30"></a>
-      </div>
-      <p>©2022 THIRTY SECONDS TO MARS</p>
-    </footer>
-  </div>
+    <!-- Container -->
+    <div id="container">
+        <!-- Header -->
+        <header>
+            <h1>THIRTY SECONDS TO MARS</h1>
+        </header>
+        <!-- Nav-Bar -->
+        <nav>
+            <ul>
+                <li><a href="./index.html">INICIO</a></li>
+                <li><a href="./virtual-bg.html">VIRTUAL BACKGROUNDS</a></li>
+                <li><a href="./30stm-songs.html">30STM SONGS</a></li>
+                <li><a href="./tstm.html">TSTM</a></li>
+                <li><a href="./account.html">ACCOUNT</a></li>
+            </ul>
+        </nav>
+        <!-- Section -->
+        <section>
+            <h2 id="section-title">THIRTY SECONDS TO MARS</h2>
+            <img src="./img/TSTM-index.jpg" alt="TSTM ILLENIUM">
+            <iframe src="https://www.youtube.com/embed/6FYCVdQrOYM"
+                title="ILLENIUM - Wouldn't Change a Thing (feat. Thirty Seconds to Mars)"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div>
+                <h3>UPCOMING DATES</h3>
+                <h4>NO UPCOMING SHOWS</h4>
+                <p>STAY TUNED FOR NEW MUSIC ANNOUNCEMENTS!</p>
+                <h4><a href="./account.html">SIGN UP FOR UPDATES</a></h4>
+            </div>
+            <iframe src="https://www.youtube.com/embed/H6WZIfJ9G_I"
+                title="Thirty Seconds To Mars - Hail to the Victor (Official Music Video)"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <h2>PHOTOS</h2>
+            <div id="photos">
+                <img src="./img/photo-1.jpg" alt="TSTM-Photo-1">
+                <img src="./img/photo-5.jpg" alt="TSTM-Photo-5">
+                <img src="./img/photo-7.jpg" alt="TSTM-Photo-7">
+                <img src="./img/photo-3.jpg" alt="TSTM-Photo-3">
+                <img src="./img/photo-10.jpg" alt="TSTM-Photo-10">
+                <img src="./img/photo-9.jpg" alt="TSTM-Photo-9">
+                <img src="./img/photo-2.jpg" alt="TSTM-Photo-2">
+                <img src="./img/photo-6.jpg" alt="TSTM-Photo-6">
+                <img src="./img/photo-4.jpg" alt="TSTM-Photo-4">
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer>
+            <!-- Footer - Container -->
+            <div id="container-footer">
+                <!-- Footer - Container - Content-->
+                <div class="box" id="box-1">
+                    <h3>30 Seconds To Mars</h3>
+                    <img src="./img/Thirty-Seconds-to-Mars.jpg" alt="TSTM">
+                </div>
+                <div class="box" id="box-2">
+                    <img src="./img/Thirty-Seconds-To-Mars-Yellow.png" alt="Thirty Seconds To Mars">
+                    <p> Los Ángeles - California</p>
+                    <p> Estados Unidos </p>
+                </div>
+                <div id="box-3">
+                    <h3>Redes Sociales</h3>
+                    <a href="https://twitter.com/"><img src="./img/Twitter.png" alt="Twitter"></a>
+                    <a href="https://www.instagram.com/"><img src="./img/Instagram.png" alt="Instagram"></a>
+                    <a href="https://www.facebook.com/"><img src="./img/Facebook.png" alt="facebook"></a>
+                    <a href="https://www.youtube.com/"><img src="./img/Youtube.png" alt="Youtube"></a>
+                    <a href="https://open.spotify.com/"><img src="./img/Spotify.png" alt="Youtube"></a>
+                </div>
+            </div>
+            <p>©2022 THIRTY SECONDS TO MARS</p>
+        </footer>
+    </div>
 </body>
 
 </html>
